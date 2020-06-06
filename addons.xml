@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="otaku.repo" name="Otakoproject"
+		version="0.1"
+		provider-name="[B][COLOR gold]V.S.S[/B][/COLOR]">
+
+	<requires>
+            <import addon="xbmc.python" version="2.1.0"/>
+		    <import addon="script.module.addon.common" optional="true" />
+		    <import addon="script.module.t0mm0.common" optional="true" />
+		    <import addon="script.module.urlresolver" optional="true" />
+    </requires>
+	
+	<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
+		<info compressed="true">https://github.com/parz-cell/otaku.repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/parz-cell/otaku.repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/parz-cell/otaku.repo/raw/master</datadir>
+	</extension>
+		
+	<extension point="xbmc.addon.metadata">
+	<news>
+	
+	</news>
+		
+	<summary></summary>
+		
+	<description></description>
+		
+<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.PLAY.OTAKU"
+       name="[COLOR yellow][B]PLAY OTAKU[/B][/COLOR]"
+       version="1.0"
+       provider-name="V.Santos.S">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  	
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red][B] SÓ ANIMES [/COLOR]</summary>
+    <description>
+        [COLOR yellow][B]Os Melhores Animes estão aqui![/B] [/COLOR][COLOR gold][B]Conteúdo encontrado online, sem fiz lucrativos.[/B][/COLOR]
+             
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
